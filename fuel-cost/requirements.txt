@@ -1,2 +1,5 @@
 fastapi[standard]==0.113.0
 pydantic==2.8.0
+pandas==2.2.2
+sqlmodel==0.0.21
+pymysql==1.1.1
