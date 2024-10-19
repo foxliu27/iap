@@ -8,7 +8,7 @@ from sqlmodel import Session
 
 
 def get_calculate_service(session: Session = Depends(get_db_session)):
-    return CalculateService(session)
+    return CalculateService()
 
 
 class CalculateService:
